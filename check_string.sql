@@ -1,0 +1,1 @@
+SELECT SplitString('Привет мир SQL');

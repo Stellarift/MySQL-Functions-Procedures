@@ -1,0 +1,1 @@
+CALL SplitStringProc('Раз два три');

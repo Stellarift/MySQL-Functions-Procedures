@@ -1,0 +1,10 @@
+DELIMITER //
+
+CREATE FUNCTION SplitString(input_text TEXT)
+RETURNS TEXT
+DETERMINISTIC
+BEGIN
+    RETURN REPLACE(input_text, ' ', ', ');
+END//
+
+DELIMITER ;

@@ -1,0 +1,1 @@
+SELECT Calculator(10, 5, '+');
